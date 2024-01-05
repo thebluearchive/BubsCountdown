@@ -1,0 +1,33 @@
+* {
+	box-sizing:border-box;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background: rgb(2,0,36);
+	background: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,139,167,1) 100%); 
+	/* background-color: #03045e; */
+	color: white;
+
+}
+
+#countdown-header {
+	font-family: Lobster Two,cursive;
+	font-size: 60px;
+}
+
+#countdown {
+	padding-top: 10px;
+	font-family: Roboto,sans-serif;
+	font-size: 44px;
+}

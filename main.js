@@ -1,13 +1,13 @@
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 13, 2024 17:30:00").getTime();
+var countDownDate = new Date("Jan 13, 2024 22:30:00 UTC");
 
 // Update the count down every 1 second
 window.addEventListener('load', updateCountdown);
 setInterval(updateCountdown, 1000);
 
 function updateCountdown() {
-	var now = new Date().getTime();
+	var now = Date.now();
 
 	if (now >= countDownDate) {
 		document.getElementById("countdown").innerHTML = "0d 0h 0m 0s";
@@ -22,5 +22,4 @@ function updateCountdown() {
 	var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
 	document.getElementById("countdown").innerHTML = days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
 }

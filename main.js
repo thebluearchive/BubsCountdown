@@ -11,6 +11,7 @@ function updateCountdown() {
 
 	if (now >= countDownDate) {
 		document.getElementById("countdown").innerHTML = "0d 0h 0m 0s";
+		return;
 	}
 
 	var distance = countDownDate - now;

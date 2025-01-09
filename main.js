@@ -1,6 +1,6 @@
 
 // Set the date we're counting down to
-var countDownDate = new Date("Jan 13, 2024 22:30:00 UTC");
+var countDownDate = new Date("Jan 17, 2025 20:00:00 UTC");
 
 // Update the count down every 1 second
 window.addEventListener('load', updateCountdown);
